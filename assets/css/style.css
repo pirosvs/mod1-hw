@@ -128,6 +128,7 @@ h2 {
     font-size: 36px;
 }
 
+/* Deleted individual classes and consolidated into one class */
 .benefits {
     /* margin-bottom: 20px; */
     padding: 50px;
@@ -138,35 +139,9 @@ h2 {
     margin-bottom: 52px;
     /* color: #ffffff; */
 }
-/* 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* Deleted individual class img styling and consolidated into img styling for class benefits */
+/* Deleted individual class img styling and consolidated into img styling for class benefits     */
 .benefits img {
     max-height: 200px;
 }
-
-/* .online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
 
