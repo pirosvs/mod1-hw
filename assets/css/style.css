@@ -91,30 +91,22 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+.sidebar {
     margin-right: 20px;
+    /* margin-bottom: 32px; */
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Deleted individual classes per item and created bottom margin class for sidebar, sure there is some better way to do this but it's 11PM */
+.sidebar-marginb {
     margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
 
 /* Deleted the different classes for each use of the h3 tag and consolidated into just styling the h3 element */
@@ -124,19 +116,27 @@ h3 {
 }
 
 /* Deleted individual benefit image classes and consolidated into styling img element for .benefits class */
-.benefits img {
+.sidebar img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.sidebar {
+/* Deleted individual class h2 stylings and made h2 element styling since they were all the same */
+h2 {
     margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    /* margin-bottom: 20px; */
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    margin-bottom: 52px;
+    /* color: #ffffff; */
 }
 /* 
 .online-reputation-management {
@@ -157,7 +157,8 @@ h3 {
     color: #ffffff;
 } */
 
-.sidebar img {
+/* Deleted individual class img styling and consolidated into img styling for class benefits */
+.benefits img {
     max-height: 200px;
 }
 
@@ -168,10 +169,4 @@ h3 {
 .social-media-marketing img {
     max-height: 200px;
 } */
-
-/* Deleted individual class h2 stylings and made h2 element styling since they were all the same */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
